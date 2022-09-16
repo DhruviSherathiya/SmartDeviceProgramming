@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class FirstClass extends StatefulWidget {
-  const FirstClass({Key? key}) : super(key: key);
+class SecondClass extends StatefulWidget {
+  const SecondClass({Key? key}) : super(key: key);
 
   @override
-  State<FirstClass> createState() => _FirstClassState();
+  State<SecondClass> createState() => _SecondClassState();
 }
 
-class _FirstClassState extends State<FirstClass> {
+class _SecondClassState extends State<SecondClass> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,6 +29,8 @@ class _FirstClassState extends State<FirstClass> {
         backgroundColor: Color(0xff22223b),
       ),
     );
-
   }
 }
+
+
+
