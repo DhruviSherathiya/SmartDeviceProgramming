@@ -16,7 +16,7 @@ class _ThirdClassState extends State<ThirdClass> {
         centerTitle: true,
         backgroundColor: Color(0xff22223b),
       ),
-      /**body: Center(
+      /** body: Center(
           child: ElevatedButton(
             child: Text('Button'),
             onPressed: () {},
@@ -35,7 +35,7 @@ class _ThirdClassState extends State<ThirdClass> {
             child: Text('Flat Button'),
             color: Color(0xff5F6F94),
           ),
-      ), */
+      ),*/
       /** body: Center(
         child: IconButton(
           icon: Icon(
@@ -48,7 +48,7 @@ class _ThirdClassState extends State<ThirdClass> {
           },
         ),
       ),*/
-      /** body: Center(
+      /**body: Center(
         child: TextButton.icon(
           icon: Icon(
             Icons.fingerprint,
